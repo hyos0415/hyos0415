@@ -8,9 +8,9 @@
 
 | Category | Technologies |
 | :--- | :--- |
-| **AI & ML** | `PyTorch`, `LLM`,`RAG`|
-| **Data & Infra** | `Python`, `Pandas`, `LangGraph`, `Langfuse` |
-| **Tools** | `Git`  |
+| **AI & ML** | `LLM`,`RAG`|
+| **language** | `Python`|
+| **Tools** | `Git`, `LangGraph`, `Langfuse` , 'LangChain' , 'LlamaIndex'  |
 
 ---
 
