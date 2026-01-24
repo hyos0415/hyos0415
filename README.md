@@ -9,9 +9,8 @@
 | Category | Technologies |
 | :--- | :--- |
 | **AI & ML** | `PyTorch`, `LLM`,`RAG`|
-| **Model Serving** | `vLLM`, `Llama.cpp`,  |
-| **Data & Infra** | `Python`, `Pandas`, `LangGraph`, `Langfuse`, `ETL Pipeline` |
-| **Tools** | `Git`, `Docker`, `Knowledge Graph` |
+| **Data & Infra** | `Python`, `Pandas`, `LangGraph`, `Langfuse` |
+| **Tools** | `Git`  |
 
 ---
 
