@@ -30,9 +30,16 @@
     * Accuracy : 80.68 % -> 82.20 %
 * **Link:** [https://github.com/boostcampaitech8/pro-nlp-generationfornlp-nlp-05/tree/feature/ver-1/src_ver1/web_wiki]
 
-#### 3️⃣ ETL 파이프라인 구축 (진행 중)
+#### 3️⃣ [Personal Project] Korean Domain-Specific Reranker PEFT
+* **Description:** AI-Hub 금융/법률 데이터를 활용하여 한국어에 특화된 Reranker 모델을 PEFT(LoRA) 기법으로 파인튜닝. 하드 네거티브 마이닝과 오답 사례 집중 보강을 통해 검색 정확도를 극대화함.
+* **Key Achievements:**
+    * Hit@1 Accuracy: 0.90 -> 0.96 (6%p 상승)
+    * Fast Vector Search 기반 하드 네거티브 채굴 및 효율적인 증분 학습 파이프라인 구축
+* **Link:** [https://github.com/hyos0415/reranker-peft-project]
+
+#### 4️⃣ ETL 파이프라인 구축 (진행 중)
 * **Description:** 뉴스 RSS 및 웹 스크레이핑 데이터를 활용한 자동화 파이프라인 구축
-* **Tech:** `RSS Feed`, `Web Scraping`,  `ETL`
+* **Tech:** `RSS Feed`, `Web Scraping`, `ETL`
 * **Focus:** 데이터 수집부터 정제, 벡터 스토어 저장까지 이어지는 전체 엔드투엔드 파이프라인 설계
 
 ---
