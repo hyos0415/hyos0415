@@ -45,6 +45,7 @@
 - **하이브리드 RAG (RRF)**: BM25와 Dense Vector 검색을 RRF 알고리즘으로 결합하여 **Context Precision 1.0** 달성
 - **지식 그래프 엔진**: PGI(Property Graph Index)를 활용한 **육각형 분석 2.0 (Hexagonal Metrics)** 지표 산출 기술 구현
 - **팩트체크 시나리오**: 사용자 기사 초안을 기존 지식 베이스와 격리 대조하여 사실 모순(Contradiction) 및 신규 지식 탐지
+- **Link : ** [https://github.com/hyos0415/KAG_LlamaIndex]
 ---
 
 ### ✍️ Recent Interests & Learning
