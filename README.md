@@ -37,11 +37,14 @@
     * Fast Vector Search 기반 하드 네거티브 채굴 및 효율적인 증분 학습 파이프라인 구축
 * **Link:** [https://github.com/hyos0415/reranker-peft-project]
 
-#### 4️⃣ ETL 파이프라인 구축 (진행 중)
-* **Description:** 뉴스 RSS 및 웹 스크레이핑 데이터를 활용한 자동화 파이프라인 구축
-* **Tech:** `RSS Feed`, `Web Scraping`, `ETL`
-* **Focus:** 데이터 수집부터 정제, 벡터 스토어 저장까지 이어지는 전체 엔드투엔드 파이프라인 설계
-
+#### 4️⃣ 뉴스 아레나(News Arena): 지능형 뉴스 RAG & PGI 파이프라인
+* **Description:** 뉴스 RSS 수집부터 하이브리드 검색(Elasticsearch + ChromaDB), Neo4j 기반 지식 그래프 분석까지 결합된 엔드투엔드 뉴스 지능 엔진
+* **Tech:** Apache Airflow, PostgreSQL, Elasticsearch, ChromaDB, Neo4j, LlamaIndex, LangChain
+* **Focus:**
+- **엔드투엔드 파이프라인 자동화**: Airflow를 활용하여 수집, 정제, 메타데이터 추출, 하이브리드 스토어 동기화 자동화 구축
+- **하이브리드 RAG (RRF)**: BM25와 Dense Vector 검색을 RRF 알고리즘으로 결합하여 **Context Precision 1.0** 달성
+- **지식 그래프 엔진**: PGI(Property Graph Index)를 활용한 **육각형 분석 2.0 (Hexagonal Metrics)** 지표 산출 기술 구현
+- **팩트체크 시나리오**: 사용자 기사 초안을 기존 지식 베이스와 격리 대조하여 사실 모순(Contradiction) 및 신규 지식 탐지
 ---
 
 ### ✍️ Recent Interests & Learning
