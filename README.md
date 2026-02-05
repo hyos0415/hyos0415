@@ -35,7 +35,7 @@
 * **Key Achievements:**
     * Hit@1 Accuracy: 0.90 -> 0.96 (6%p 상승)
     * Fast Vector Search 기반 하드 네거티브 채굴 및 효율적인 증분 학습 파이프라인 구축
-* **Link:** [https://github.com/hyos0415/reranker-peft-project]
+* **Link:** [https://github.com/hyos0415/reranker_FT]
 
 #### 4️⃣ 뉴스 아레나(News Arena): 지능형 뉴스 RAG & PGI 파이프라인
 * **Description:** 뉴스 RSS 수집부터 하이브리드 검색(Elasticsearch + ChromaDB), Neo4j 기반 지식 그래프 분석까지 결합된 엔드투엔드 뉴스 지능 엔진
